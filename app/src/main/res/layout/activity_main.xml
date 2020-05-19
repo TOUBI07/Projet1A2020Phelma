@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    tools:context=".MainActivity">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="237dp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp" />
+    <TextView
+        android:id="@+id/acceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp" />
+
+
+
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="bottom"
+        android:inputType="phone"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:onClick="btn_SendSMS_OnClick"
+            android:text="@string/buttonPhone" />
+
+        <Button
+            android:id="@+id/Buttinfo"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:onClick="btn_SendSMS_OnClick"
+            android:text="@string/info" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

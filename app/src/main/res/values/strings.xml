@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Projet1A</string>
+    <string name="buttonPhone">Num d\'urgence</string>
+    <string name="info">For more information</string>
+    <string name="textview1" />
+    <string name="textview2" />
+    <string name="textview3" />
+</resources>
